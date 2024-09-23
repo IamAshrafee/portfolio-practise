@@ -51,9 +51,10 @@
     font-size: 50px;
 }
 
-.header2{
+.header2 {
     font-size: 35px;
 }
+
 .description {
     margin: 20px 0px;
 }
@@ -108,23 +109,21 @@
     margin-right: 17%;
 }
 
-.align-start{
+.align-start {
     display: flex;
     align-items: start !important;
     margin-top: 150px;
 }
 
-.second-section{
+.second-section {
     background-image: url(./developer-portfolio/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 
-.third-section{
-  
-}
+.third-section {}
 
-.card{
+.card {
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
     height: 300px;
@@ -136,7 +135,7 @@
     overflow: hidden;
 }
 
-.margin0{
+.margin0 {
     margin-top: 0px !important;
     height: max-content !important;
     margin-bottom: 200px !important;
@@ -145,11 +144,11 @@
     background-position: left;
 }
 
-.section-name{
+.section-name {
     margin: 180px 0px 40px 120px;
 }
 
-footer{
+footer {
     text-align: center;
     margin-bottom: 40px;
 }
