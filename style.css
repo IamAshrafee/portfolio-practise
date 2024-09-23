@@ -42,6 +42,7 @@
     justify-content: center;
     width: 50%;
     height: 100%;
+    align-items: center;
 }
 
 /* Typography Styles */
@@ -50,6 +51,9 @@
     font-size: 50px;
 }
 
+.header2{
+    font-size: 35px;
+}
 .description {
     margin: 20px 0px;
 }
@@ -114,4 +118,38 @@
     background-image: url(./developer-portfolio/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.third-section{
+  
+}
+
+.card{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 300px;
+    width: 65%;
+    padding: 30px 50px;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(250, 105, 87), rgb(248, 139, 106));
+    border-image-slice: 1;
+    overflow: hidden;
+}
+
+.margin0{
+    margin-top: 0px !important;
+    height: max-content !important;
+    margin-bottom: 200px !important;
+    background-image: url(./developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.section-name{
+    margin: 180px 0px 40px 120px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 40px;
 }
