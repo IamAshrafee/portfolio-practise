@@ -1,57 +1,84 @@
-/* Universal styles for font family */
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
 }
 
-/* Styling the first section */
 .first-section {
-    display: flex; /* Display elements in a row */
-    flex-direction: row; /* Horizontal layout */
-    margin-top: 20px; /* Space at the top */
+    background-image: url(./developer-portfolio/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
 }
 
-/* Styling the left-side content */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 630px;
+    width: 100%;
+    margin-top: 40px;
+}
+
 .left-side {
-    width: 50%; /* Half width for left-side */
-    margin: 85px 95px 95px 140px; /* Margin around the left-side content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+
 }
 
-/* Styling for main headings */
-.left-side h1 {
-    font-size: 50px; /* Large font size for heading */
-    margin: 12px 0px; /* Margin above and below headings */
-}
-
-/* Highlight class for the name */
-.highlight {
-    color: orange; /* Orange color for name highlight */
-}
-
-/* Styling for the hire button */
-.hire-btn {
-    border: none; /* No border */
-    font-size: 20px; /* Font size for the button text */
-    padding: 7px 18px; /* Padding inside the button */
-    border-radius: 4px; /* Rounded corners */
-    color: white; /* White text color */
-    background-image: linear-gradient(to right, #e98c7d, #fa745e); /* Background gradient */
-    cursor: pointer; /* Pointer cursor on hover */
-}
-
-/* Hover effect for the button */
-.hire-btn:hover {
-    background-image: linear-gradient(to left, #ec3316, #fa745e); /* Gradient changes direction */
-}
-
-/* Styling the right-side content */
 .right-side {
-    width: 50%; /* Half width for right-side */
-    text-align: center; /* Center text alignment */
-    margin-top: 30px; /* Space at the top */
-    margin-right: 95px; /* Space on the right */
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
 }
 
-/* Image styles */
-.right-side img {
-    width: 78%; /* Image width */
+.header {
+    font-size: 50px;
+}
+
+.description {
+    margin: 20px 0px;
+}
+
+.description-title {
+    font-weight: bold;
+}
+
+.highlighted-text {
+    color: rgb(247, 139, 107);
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.hire-btn {
+    text-decoration: none;
+    width: max-content;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, rgb(250, 105, 87), rgb(248, 139, 106));
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ;
+}
+
+.hire-btn:hover {
+    background-image: linear-gradient(to left, rgb(250, 105, 87), rgb(248, 139, 106));
+    
+}
+
+.img {
+    height: 100%;
+    width: auto;
+}
+
+.content-left{
+    margin-left: 17%;
 }
