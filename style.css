@@ -1,14 +1,20 @@
+/* Global Styles */
+
 * {
     font-family: poppins;
     margin: 0;
     padding: 0;
 }
 
+/* First Section Styles */
+
 .first-section {
     background-image: url(./developer-portfolio/top-banner.png);
     background-repeat: no-repeat;
     display: flex;
 }
+
+/* Container Styles */
 
 .container {
     display: flex;
@@ -19,14 +25,17 @@
     margin-top: 40px;
 }
 
+/* Left Side Styles */
+
 .left-side {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
     height: 100%;
-
 }
+
+/* Right Side Styles */
 
 .right-side {
     display: flex;
@@ -34,6 +43,8 @@
     width: 50%;
     height: 100%;
 }
+
+/* Typography Styles */
 
 .header {
     font-size: 50px;
@@ -51,10 +62,14 @@
     color: rgb(247, 139, 107);
 }
 
+/* Link Styles */
+
 .link {
     text-decoration: none;
     color: white;
 }
+
+/* Button Styles */
 
 .hire-btn {
     text-decoration: none;
@@ -66,19 +81,21 @@
     border: none;
     font-weight: bold;
     cursor: pointer;
-    transition: 0.5s ;
+    transition: 0.5s;
 }
 
 .hire-btn:hover {
     background-image: linear-gradient(to left, rgb(250, 105, 87), rgb(248, 139, 106));
-    
+
 }
+
+/* Image Styles */
 
 .img {
     height: 100%;
     width: auto;
 }
 
-.content-left{
+.content-left {
     margin-left: 17%;
 }
