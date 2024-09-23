@@ -29,7 +29,7 @@
 
 .left-side {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
     width: 50%;
     height: 100%;
@@ -98,4 +98,20 @@
 
 .content-left {
     margin-left: 17%;
+}
+
+.content-right {
+    margin-right: 17%;
+}
+
+.align-start{
+    display: flex;
+    align-items: start !important;
+    margin-top: 150px;
+}
+
+.second-section{
+    background-image: url(./developer-portfolio/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
