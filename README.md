@@ -1,3 +1,3 @@
-<h1>A Protfolio Practice</h1>
+<h1>A Portfolio Practice</h1>
 
 <p>How is it friends?</p>
